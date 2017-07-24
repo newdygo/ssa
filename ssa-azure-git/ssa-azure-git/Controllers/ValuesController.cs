@@ -18,7 +18,7 @@ namespace ssa_azure_git.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return id.ToString();
+            return id;
         }
 
         // POST api/values
