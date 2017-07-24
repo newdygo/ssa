@@ -39,7 +39,7 @@ namespace ssa_azure_git.Tests.Controllers
             string result = controller.Get(5);
 
             // Assert
-            Assert.AreEqual("value", result);
+            Assert.AreEqual(6, result);
         }
 
         [TestMethod]
